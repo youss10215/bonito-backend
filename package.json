@@ -5,8 +5,8 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
+    "start": "node_modules/.bin/strapi start",
+    "build": "node_modules/.bin/strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -24,8 +24,7 @@
     "uuid": "c108fd23-863c-4117-96a5-c39a50e03612"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+  "node": "20.x"
   },
   "license": "MIT"
 }
